@@ -1,0 +1,116 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: whitesmoke;
+}
+.container{
+    padding: 1rem;
+    display:flex;
+    align-items: flex-start;
+    gap:1rem;
+    border: 1px solid black;
+}
+.clientList{
+
+    flex-grow: 0;
+    list-style-type: none;
+    display: flex;
+    gap:0.1rem;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.clientList .title{    
+    color: hsl(206, 67%, 48%);
+}
+.clientList .title:hover{
+    color: hsl(206, 67%, 48%);
+    background-color: hsl(0, 0%, 93%);
+}
+.clientList div{
+    min-width: 6rem;
+    text-align: center;
+    padding: 1rem;
+    background-color: hsl(0, 0%, 80%);
+    text-decoration: none;
+    cursor: pointer;
+    color: hsl(209, 87%, 21%)    
+
+}
+.clientList div:hover{
+    background-color: azure;
+}
+
+.dateFilters{
+    border: 1px solid gray;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: flex-end;
+    gap:1rem;
+
+}
+.dateFilters label{
+    color: hsl(0, 0%, 50%);
+    font-size: x-small;
+    justify-self:end;
+}
+
+.caseTable{
+    margin-top: 1rem;
+
+}
+.caseTable thead{
+    height: 2rem;
+    background-color: red;
+    font-size: small;
+    padding-top: 0.5rem;
+    font-weight: 400;
+    color: hsl(334, 37%, 87%)
+}
+.caseTable td{
+    min-width: 6rem;
+    border: 1px solid hsl(0, 0%, 75%);
+    font-size: 0.85rem;
+    font-weight: 500;
+    padding: .5rem;
+    
+}
+.red{
+    color: hsl(0, 70%, 60%)
+}
+.blue{
+    color: hsl(209, 87%, 21%)
+
+}
+.status{
+    color: hsl(206, 67%, 48%);
+    
+}
+.status span{
+    display: block;
+    text-align: center;
+    font-size: smaller;
+    margin-top: 0.01rem;
+    margin-bottom: 0.01rem;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+    padding: 5px;
+    background-color: hsl(0, 0%, 93%);
+
+}
+.caseTable td a{
+    text-decoration: none;
+    color: hsl(0, 70%, 60%);
+}
+.filters{
+    margin-top: 1rem;
+    display: flex;
+    font-size: .7rem;
+    gap:0.5rem;
+    cursor: pointer;
+}
+
+.filter{
+    color: hsl(0, 0%, 50%);
+}
+.filterActive{
+    color: hsl(0, 0%, 10%);
+}
