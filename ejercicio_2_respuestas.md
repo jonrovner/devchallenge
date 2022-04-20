@@ -36,7 +36,7 @@ export const get_Cases = (id, start, end, auth) => async (dispatch) => {
 };
 ```
 
-en el reducer, tendríamos un initialState que contendría una propiedad 'user' en donde guardaremos el resultado de invocar la acción.
+en el reducer, tendríamos un initialState que contendría las propiedad 'user', 'clients' y 'cases' en donde guardaremos el resultado de invocar la acción respectiva.
 
 ```js
 //reducers.js
