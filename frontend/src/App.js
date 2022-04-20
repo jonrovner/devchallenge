@@ -132,7 +132,7 @@ const App = () => {
                         <thead>
 
                             <tr>
-                                <th>Gestonado</th>
+                                <th>Gestionado</th>
                                 <th>ID caso</th>
                                 <th>Teléfono</th>
                                 <th>DNI</th>
